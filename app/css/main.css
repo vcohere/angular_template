@@ -16,6 +16,10 @@ a {
 body {
 }
 
+.loading-img {
+	width: 40%;
+}
+
 .spacer-top-min {
 	margin-top: 10px;
 }
