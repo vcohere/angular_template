@@ -1,0 +1,17 @@
+{
+    "name": "GOP-Mobile",
+    "version": "1.0.0",
+    "description": "Template angularJS/node.js",
+    "dependencies": {},
+    "devDependencies": {
+        "mime": "*",
+        "express": "*",
+        "mongodb": "*",
+        "morgan": "*",
+        "serve-static": "*",
+        "serve-favicon": "*",
+        "body-parser": "*"
+    },
+    "repository": {},
+    "license": "ISC"
+}

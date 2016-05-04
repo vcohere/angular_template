@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+}
+
+hr {
+	border-color: #000000;
+	background-color: #0091cd;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+a {
+}
+
+body {
+}
+
+.spacer-top-min {
+	margin-top: 10px;
+}
+
+.spacer-top-med {
+	margin-top: 50px;
+}
+
+.spacer-top-max {
+	margin-top: 100px;
+}
+
+.spacer-bottom-min {
+	margin-bottom: 10px;
+}
+
+.spacer-bottom-med {
+	margin-bottom: 50px;
+}
+
+.spacer-bottom-max {
+	margin-bottom: 100px;
+}
+
+.spacer-left-min {
+	margin-left: 10px;
+}
+
+.spacer-left-med {
+	margin-left: 50px;
+}
+
+.spacer-left-max {
+	margin-left: 100px;
+}
+
+.spacer-right-min {
+	margin-right: 10px;
+}
+
+.spacer-right-med {
+	margin-right: 50px;
+}
+
+.spacer-right-max {
+	margin-right: 100px;
+}
+
+.glyphicon {
+	color: white;
+}
+
+.color-greyblack {
+	color: #1d1d1b;
+}
+
+.backcolor-greyblack {
+	background-color: #1d1d1b;
+}
+
+.color-blue {
+	color: #0091cd;
+}
+
+.backcolor-blue {
+	background-color: #0091cd;
+}
+
+.color-black {
+	color: black;
+}
+
+.backcolor-black {
+	background-color: black;
+}
+
+.color-white {
+	color: white;
+}
+
+.backcolor-white {
+	background-color: white;
+}
+
+.color-transparent {
+	color: transparent;
+}
+
+.backcolor-transparent {
+	background-color: transparent;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
