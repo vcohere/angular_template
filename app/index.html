@@ -50,12 +50,13 @@
 					</button>
 					<a class="navbar-brand" ui-sref="home">Website name</a>
 				</div>
-				<div class="collapse navbar-collapse" id="navbar">
+				<div class="collapse navbar-collapse" id="navbar" ng-controller="navCtrl">
 					<ul class="nav navbar-nav">
-						<li><a ui-sref="home">Home</a></li>
+						<li ng-class="{active: view == 'home' }"><a ui-sref="home">Home</a></li>
+						<li ng-class="{active: view == 'home' }"><a href="#/"><span class="glyphicon glyphicon-home"></span></a></li>
 					</ul>
 				</div>
-		</div>
+			</div>
 		</nav>
 		<!-- Div Body -->
 		<div class="container">
