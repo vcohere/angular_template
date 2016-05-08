@@ -14,7 +14,7 @@ you need to launch:
 ## Creating new feature
 ### using
 
-- a script newFeature.sh is present in the root. this scipt take the name of the feature in fisrt parameter
+a script newFeature.sh is present in the root. this scipt take the name of the feature in fisrt parameter
 - ./newFeature myfeature
 
 ### dependencies
