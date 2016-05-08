@@ -49,8 +49,10 @@ var api = express();
 // 	res.send({succes: true});
 // });
 
-app.use(bodyParser({limit: '5mb'}))
-
+//app.use(bodyParser({limit: '5mb'}))
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+	
 // api.post("/post", function (req, res) {
 // 	res.header("Access-Control-Allow-Origin", "*");
 // 	MongoClient.connect("mongodb://localhost/", function(error, db) {
