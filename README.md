@@ -3,19 +3,19 @@
 ## Start Template
 ### requirement
 
-- node.js
+- [node.js](https://nodejs.org/)
 
 ### using
 
 you need to launch:
-- npm install
-- bower install
+- **npm install**
+- **bower install**
 
 ## Creating new feature
 ### using
 
 a script newFeature.sh is present in the root. this scipt take the name of the feature in fisrt parameter
-- ./newFeature myfeature
+- **./newFeature myfeature**
 
 ### dependencies
 
