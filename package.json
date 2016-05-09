@@ -2,8 +2,7 @@
     "name": "webtemplate",
     "version": "1.0.0",
     "description": "Template angularJS/node.js",
-    "dependencies": {},
-    "devDependencies": {
+    "dependencies": {
         "mime": "*",
         "express": "*",
         "mongodb": "*",
