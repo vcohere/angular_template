@@ -4,6 +4,7 @@
 ### requirement
 
 - [node.js](https://nodejs.org/)
+- [bower](http://bower.io/)
 
 ### using
 
