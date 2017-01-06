@@ -9,13 +9,13 @@
 ### using
 
 you need to launch:
-- ./init
+- ./init.sh
 
 ## Creating new feature
 ### using
 
 a script **newFeature.sh** is present in the root. this scipt take the name of the feature in fisrt parameter
-- ./newFeature namefeature
+- ./newFeature.sh namefeature
 
 ### dependencies
 
