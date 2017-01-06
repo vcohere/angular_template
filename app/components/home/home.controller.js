@@ -3,11 +3,8 @@ mainModule.controller('homeCtrl', function($scope, homeRest) {
 
 	self.getData = function() {
 		self.load = true;
+		// Only business logic in the controller part
 		self.load = false;
-	}
-
-	self.doRefresh = function() {
-		self.getData();
 	}
 
 	self.getData();

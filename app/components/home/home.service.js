@@ -1,20 +1,10 @@
 angular.module('homeRest', [ 'ngResource' ])
-.factory('homeRest', function($resource) {	
+.factory('homeRest', function($resource) {
+	// Everything that modify or access data must be in the SERVICE part of the code
 
-	var URL_API = "http://localhost:8040/api/";
-
-	var serviceRest = $resource(URL_API, null, 
-	{
-		// "get" : { method: "GET", isArray: false, url: URL_API + "get"}
-		// "post" : { method: "POST", url: URL_API + "post" }
-	});
+	var text = "some data";
 
 	return {
-		// get: function(obj) {
-		// 	return serviceRest.get(obj);
-		// }
-		// post: function(obj) {
-		// 	return serviceRest.post(obj, function() {}, function(r) {});
-		// }
+		data: text
 	};
 })

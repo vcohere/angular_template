@@ -1,16 +1,25 @@
-var http = require("http");
-var fs = require("fs");
-var express = require("express");
-var logger = require("morgan");
-var serveStatic = require("serve-static");
+var http = require("http"),
+		fs = require("fs"),
+		express = require("express"),
+		logger = require("morgan"),
+		serveStatic = require("serve-static")
 
-var port = 8040;
+var port = 8040
 
-var app = express();
+var app = express()
 
-app.use(logger(":method :url"));
-app.use(serveStatic(__dirname + "/app"));
+app.use(logger(":method :url"))
 
-http.createServer(app).listen(port);
+app.use('/components', serveStatic(__dirname + "/app/components"))
+app.use('/css', serveStatic(__dirname + "/app/css"))
+app.use('/img', serveStatic(__dirname + "/app/img"))
+app.use('/lib', serveStatic(__dirname + "/app/lib"))
+app.use('/svg', serveStatic(__dirname + "/app/svg"))
 
-console.log("localhost:" + port);
+app.get('/*', function(req, res) {
+	res.sendFile('/app/index.html', {root: __dirname})
+})
+
+http.createServer(app).listen(port)
+
+console.log("localhost:" + port)
