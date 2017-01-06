@@ -1,12 +1,11 @@
 {
-	"name": "angular-base",
+	"name": "bnptask",
 	"version": "1.0.0",
 	"license": "ISC",
 	"dependencies": {
     	"angular": "*",
     	"angular-resource": "*",
     	"angular-ui-router": "*",
-    	"jquery": "*",
-    	"bootstrap": "*"
+    	"jquery": "*"
 	}
 }

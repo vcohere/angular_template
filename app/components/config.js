@@ -1,9 +1,8 @@
 mainModule.config(function($stateProvider, $urlRouterProvider) {
-
-	$urlRouterProvider.otherwise('/home');
+	$urlRouterProvider.otherwise('/');
 
 	$stateProvider.state('home', {
-		url: '/home',
-		templateUrl: 'view/home/home.html'
+		url: '/',
+		templateUrl: 'components/home/home.html'
 	});
 });

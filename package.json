@@ -1,15 +1,11 @@
 {
-    "name": "webtemplate",
+    "name": "bnptask",
     "version": "1.0.0",
-    "description": "Template angularJS/node.js",
+    "description": "BNP Task Manager",
     "dependencies": {
-        "mime": "*",
         "express": "*",
-        "mongodb": "*",
         "morgan": "*",
-        "serve-static": "*",
-        "serve-favicon": "*",
-        "body-parser": "*"
+        "serve-static": "*"
     },
     "repository": {},
     "license": "ISC"
