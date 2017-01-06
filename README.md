@@ -9,8 +9,7 @@
 ### using
 
 you need to launch:
-- npm install
-- bower install
+- ./init
 
 ## Creating new feature
 ### using
